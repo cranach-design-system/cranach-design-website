@@ -1,0 +1,89 @@
+- title: Alles über Cranach Design
+  pages:
+    - title: Was ist Cranach Design?
+      path: /cranach/what-is-cranach-design
+    - title: Wie Cranach Design funktioniert?
+      path: /cranach/how-cranach-design-works
+    - title: Das Cranach Design Team
+      path: /cranach/cranach-design-team
+- title: Developing
+  pages:
+    - title: Überblick
+      path: /developing/overview
+    - title: Jetzt loslegen
+      path: /developing/get-started
+    - title: Developer Ressourcen
+      path: /developing/developer-ressources
+    - title: Developing mit React
+      path: /developing/react-tutorial
+- title: Design
+  pages:
+    - title: Überblick
+      path: /design/overview
+    - title: Jetzt loslegen
+      path: /design/get-started
+    - title: Design Kits
+      path: /design/design-kits
+    - title: Weitere Ressourcen
+      path: /design/other-ressources
+    - title: Tutorials
+      path: /design/design-tutorials
+- title: Contributing
+  pages:
+    - title: Dokumentation
+      path: /contributing/documentation
+    - title: Pattern
+      path: /contributing/pattern
+    - title: Bugs und Anfragen
+      path: /contributing/bugs-and-request
+- title: Neuigkeiten
+  pages:
+    - title: Changelog und Roadmap
+      path: /news/changelog-and-roadmap
+    - title: News und Artikel
+      path: /news/news-and-article
+    - title: Meetup
+      path: /news/meetups
+    - title: Work in progress
+      path: /news/work-in-progress
+  hasDivider: true
+- title: Guidelines
+  pages:
+    - title: Farben
+      path: /guidelines/color
+    - title: Typographie
+      path: /guidelines/typographie
+    - title: Spacing
+      path: /guidelines/spacing
+  hasDivider: true
+- title: Pattern und Komponenten
+  pages:
+    - title: Überblick
+      path: /pattern-overview/overview
+- title: Atoms
+  pages:
+    - title: Button
+      path: /atoms/button
+    - title: Title
+      path: /atoms/title
+    - title: Logo
+      path: /atoms/logo
+- title: Molecules
+  pages:
+    - title: ArtefactCard
+      path: /molecules/artefactCard
+    - title: DefinitionList
+      path: /molecules/definitionList
+- title: Organism
+  pages:
+    - title: ArtefactIntro
+      path: /organism/artefactIntro
+    - title: ArtefactDetails
+      path: /organism/artefactDetails
+  hasDivider: true
+- title: Hilfe
+  pages:
+    - title: FAQ
+      path: /help/faq
+    - title: Kontaktiere uns
+      path: /help/contact

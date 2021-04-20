@@ -1,0 +1,93 @@
+---
+title: React Tutorials
+description: ...
+---
+
+<PageDescription>
+
+Dieses Tutorial führt dich durch die Erstellung einer React-App mit dem Cranach Design System.
+
+</PageDescription>
+
+<AnchorLinks>
+  <AnchorLink>Zielgruppe</AnchorLink>
+  <AnchorLink>Vorraussetzungen</AnchorLink>
+  <AnchorLink>Jetzt starten</AnchorLink>
+</AnchorLinks>
+
+## Zielgruppe
+
+Dieses Tutorial richtet sich an Personen die im Web entwicklen möchten. Konkret richtet sich dieses Tutorial an Personen die React-UI-Pattern/Komponenten in ihre Webseite integrieren möchten. Wenn du direkt zum Code möchtest, kannst du dieses Tutorial überspringen und zu [Jetzt loslegen](../get-started)
+
+## Vorraussetzungen
+
+### React
+
+Das ist ein Tutorial für die Webentwicklung in dem Cranach Design React-UI-Pattern integriert werden. Wenn du noch nicht ganz vertraut mit React bist, lese zuerst das offizielle [Intro des React-Tutorials](https://reactjs.org/tutorial/tutorial.html). Eine [Schritt-für-Schritt Anleitung](https://reactjs.org/docs/hello-world.html) für React gibt es ebenfalls.
+
+### Npm
+
+In diesem Tutorial wird Npm als Dependency Manager verwendet. Stelle sicher, dass du [Npm](https://www.npmjs.com) installiert hast bevor du mit dem Tutorial beginnst, damit du Schritt für Schritt vorgehen kannst.
+
+
+
+## Jetzt starten
+
+<AnchorLinks small>
+  <AnchorLink>React-Projekt erstellen</AnchorLink>
+  <AnchorLink>Ressourcen installieren</AnchorLink>
+  <AnchorLink>Ressourcen importieren</AnchorLink>
+</AnchorLinks>
+
+
+### React Projekt erstellen
+
+Erstelle ein React-Projekt über [Create React App](https://create-react-app.dev).
+
+```bash
+npx create-react-app your-app-name
+```
+
+Navigiere zu deinem Projekt.
+
+```bash
+cd your-app-name
+```
+
+
+### Ressourcen installieren
+
+- `cranach-design-pattern` - UI Pattern Styles
+- `cranach-design-react-pattern` - React UI Pattern
+
+
+```bash
+npm install cranach-design-pattern cranach-design-react-pattern ?!
+```
+
+### Ressourcen importieren
+
+- `cranach-design-pattern` - UI Pattern Styles
+- `cranach-design-react-pattern` - React UI Pattern
+
+Importiere einen Button aus Cranach Design, um zu testen, ob das Dependency odnungsgemäß funktioniert. Importiere oben in der App.js folgendes:
+
+```jsx path=src/App.js src=https://github.com/carbon-design-system/gatsby-theme-carbon/tree/main/packages/gatsby-theme-carbon/src/components/Accordion
+import { Button } from 'cranach-design-react-pattern';
+```
+
+Ersetze in der `App`-Komponente den Bereich zwischen den ersten `div`:
+
+```jsx path=src/App.js src=https://github.com/carbon-design-system/gatsby-theme-carbon/tree/main/packages/gatsby-theme-carbon/src/components/Accordion
+<div>
+  ...
+</div>
+```
+mit:
+
+```jsx path=src/App.js src=https://github.com/carbon-design-system/gatsby-theme-carbon/tree/main/packages/gatsby-theme-carbon/src/components/Accordion
+<Button/>
+```
+
+Herzlichen Glückwunsch, du hast deine erstes Pattern importiert! Auf der Seite sollte eine Button im Cranach-Stil angezeigt werden.
+Weitere Informationen zu diesem Pattern oder zu anderen Pattern findest du unter dem Punkt [Pattern und Komponenten](../../pattern-overview/overview)
