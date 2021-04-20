@@ -40,43 +40,49 @@ In diesem Tutorial wird Npm als Dependency Manager verwendet. Stelle sicher, das
 </AnchorLinks>
 
 
-### React Projekt erstellen
+### React Projekt erstellen und starten
 
-Erstelle ein React-Projekt über [Create React App](https://create-react-app.dev).
+Erstelle ein React-Projekt ([Create React App](https://create-react-app.dev)) über die Kommandozeile.
 
 ```bash
 npx create-react-app your-app-name
 ```
 
-Navigiere zu deinem Projekt.
+Navigiere anschließend zu deinem Projekt.
 
 ```bash
 cd your-app-name
 ```
 
+Starte das Projekt.
+
+```bash
+npm start
+```
+
+Das Projekt kannst du mit der Tastenkombination ctrl + c beenden.
 
 ### Ressourcen installieren
 
-- `cranach-design-pattern` - UI Pattern Styles
 - `cranach-design-react-pattern` - React UI Pattern
 
+Installiere React UI-Pattern über die Kommandozeile
 
 ```bash
-npm install cranach-design-pattern cranach-design-react-pattern ?!
+npm install cranach-design-react-pattern
 ```
 
 ### Ressourcen importieren
 
-- `cranach-design-pattern` - UI Pattern Styles
 - `cranach-design-react-pattern` - React UI Pattern
 
-Importiere einen Button aus Cranach Design, um zu testen, ob das Dependency odnungsgemäß funktioniert. Importiere oben in der App.js folgendes:
+Importiere einen Button aus dem Cranach Design in dein React-Projekt, um zu testen, ob das Dependency odnungsgemäß funktioniert. Importiere oben in der `App.js` folgendes:
 
 ```jsx path=src/App.js src=https://github.com/carbon-design-system/gatsby-theme-carbon/tree/main/packages/gatsby-theme-carbon/src/components/Accordion
 import { Button } from 'cranach-design-react-pattern';
 ```
 
-Ersetze in der `App`-Komponente den Bereich zwischen den ersten `div`:
+Ersetze in der `App.js`-Komponente den Bereich zwischen den ersten `div`:
 
 ```jsx path=src/App.js src=https://github.com/carbon-design-system/gatsby-theme-carbon/tree/main/packages/gatsby-theme-carbon/src/components/Accordion
 <div>
