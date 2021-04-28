@@ -1,9 +1,8 @@
 import React from 'react';
 import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import { calloutLink } from './Homepage.module.scss';
+// import { calloutLink } from './Homepage.module.scss';
 
-// import Carbon from '../../images/carbon.jpg';
 import Cranach from '../../images/cranach-hero.jpg';
 
 const FirstLeftText = () => <p>Cranch Design</p>;
@@ -18,13 +17,7 @@ const SecondLeftText = () => <p>Callout component</p>;
 
 const SecondRightText = () => (
   <p>
-    You can also not use these components at all by not providing the callout
-    props to the template or writing your own template.
-    <a
-      className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      Homepage source →
-    </a>
+
   </p>
 );
 
